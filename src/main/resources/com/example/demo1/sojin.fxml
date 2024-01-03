@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Sojin">
+   <ImageView fitHeight="408.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../../../../../../OneDrive/Pictures/cloude.jpg" />
+   </ImageView>
+   <Button layoutX="278.0" layoutY="309.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+   <Label layoutX="31.0" layoutY="65.0" prefHeight="225.0" prefWidth="545.0" />
+   <TextArea layoutX="74.0" layoutY="149.0" prefHeight="58.0" prefWidth="452.0" text=" {&quot;coord&quot;:{&quot;lon&quot;:76.9262,&quot;lat&quot;:10.9965},&quot;weather&quot;:[{&quot;id&quot;:701,&quot;main&quot;:&quot;Mist&quot;,&quot;description&quot;:&quot;mist&quot;,&quot;icon&quot;:&quot;50n&quot;}],&quot;base&quot;:&quot;stations&quot;,&quot;main&quot;:{&quot;temp&quot;:298.03,&quot;feels_like&quot;:298.74,&quot;temp_min&quot;:298.03,&quot;temp_max&quot;:298.03,&quot;pressure&quot;:1017,&quot;humidity&quot;:83},&quot;visibility&quot;:2500,&quot;wind&quot;:{&quot;speed&quot;:1.03,&quot;deg&quot;:0},&quot;clouds&quot;:{&quot;all&quot;:75},&quot;dt&quot;:1703179113,&quot;sys&quot;:{&quot;type&quot;:1,&quot;id&quot;:9206,&quot;country&quot;:&quot;IN&quot;,&quot;sunrise&quot;:1703120741,&quot;sunset&quot;:1703162065},&quot;timezone&quot;:19800,&quot;id&quot;:1259853,&quot;name&quot;:&quot;Perūr&quot;,&quot;cod&quot;:200}" />
+   <Text layoutX="200.0" layoutY="96.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="5.0" text="Now Weather ">
+      <font>
+         <Font name="System Bold" size="29.0" />
+      </font>
+   </Text>
+</AnchorPane>
